@@ -61,3 +61,27 @@ val2 = False
 print("AND operator: ", val1 and val2) 
 
 print("OR operator: ", (a == b) or (a > b)) 
+
+#Type Conversion
+# a = "2"
+b = 4.25
+print(a+b) # error bcz string and float can't sum
+
+# Type Casting
+a = float("2")
+b = 4.25
+print(type(a))
+print(a+b)
+
+a = 5
+a = str(a)
+print(type(a))
+
+# Input in Python
+name = input("Enter Your Name: ")
+age = int(input("Enter Your Age: "))
+marks = float(input("Enter Marks: "))
+
+print("Welcome" , name)
+print("Age: ", age)
+print("Marks: ", marks)
