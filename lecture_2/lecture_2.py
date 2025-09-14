@@ -28,18 +28,11 @@ print(indexingStr[0])
 
 # Slicing in Python
 sliStr = "HurairaRazzak"
-print(sliStr[1:4]) 
-print(sliStr[:4]) 
+print(sliStr[1:4])
+print(sliStr[:4]) # [0:4]
+print(sliStr[5:]) # [5:len(sliStr)] iska mtlb bhi same
+print(sliStr[5:len(sliStr)]) # len(sliStr) iska mtlb 5 length ke baad string ke end tak
 
-# str[ starting_idx : ending_idx ] #ending idx is not included
-# Accessing parts of a string
-
-# str =
-
-# “ApnaCollege”
-
-# str[ 1 : 4 ] is “pna”
-
-# str[ : 4 ] is same as str[ 0 : 4]
-
-# str[ 1 : ] is same as str[ 1 : len(str) ]
+# Slicing Negative Indexing
+fruitStr = "Apple"
+print(fruitStr[-3:-1])
