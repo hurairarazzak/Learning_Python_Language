@@ -3,12 +3,12 @@
 # WAP to find the occurrence of ‘$’ in a String.
 
 # 1) Question ka code
-# userName = str(input("Enter Your First Name: "))
-# print("Your Name length is:", len(userName))
+userName = str(input("Enter Your First Name: "))
+print("Your Name length is:", len(userName))
 
 # 2) Question ka code
-# occurrenceStr = "Hey $, it's a pleasure to meeting with you $, Thanks $"
-# print("There are",occurrenceStr.count("$"), "$ sign in string")
+occurrenceStr = "Hey $, it's a pleasure to meeting with you $, Thanks $"
+print("There are",occurrenceStr.count("$"), "$ sign in string")
 
 # Let‘s Practice
 # WAP to check if a number entered by the user is odd or even.
@@ -16,11 +16,11 @@
 # WAP to check if a number is a multiple of 7 or not.
 
 # 1) Question ka code 
-# chkNum = int(input("Enter the number to check odd or even: "))
-# if(chkNum % 2 == 0):
-#     print("Your number is even")
-# else:
-#     print("Your number is odd")
+chkNum = int(input("Enter the number to check odd or even: "))
+if(chkNum % 2 == 0):
+    print("Your number is even")
+else:
+    print("Your number is odd")
 
 # 2) Question ka code
 a = int(input("Enter your a number: "))

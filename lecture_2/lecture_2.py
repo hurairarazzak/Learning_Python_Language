@@ -39,7 +39,7 @@ print(fruitStr[-3:-1])
 
 # String Functions
 funcStr = "i'm studying python from youtube."
-print(funcStr.endswith("youtube")) #returns true if string ends with substr
+print(funcStr.endswith("youtube")) #returns true if string ends with substring
 
 # print(str.capitalize(funcStr)) #capitalizes 1st char and make new string
 funcStr = str.capitalize(funcStr)
