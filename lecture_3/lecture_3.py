@@ -15,3 +15,16 @@ print(marks[2])
 
 student = ["Ali", 84, "Karachi"] # we can also store different types of data
 print(student)
+
+student[0] = "Huraira" # Allowed in python
+# print(student)
+
+# List Slicing
+# list_name[ starting_idx : ending_idx ] #ending idx is not included
+# Similar to String Slicing
+
+firstmarks = [86, 45, 79, 82, 93]
+print(firstmarks[2:4])
+
+secondMarks = [96, 65, 45, 76]
+print(secondMarks[-3:-1])
