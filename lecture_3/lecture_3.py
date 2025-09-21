@@ -28,3 +28,42 @@ print(firstmarks[2:4])
 
 secondMarks = [96, 65, 45, 76]
 print(secondMarks[-3:-1])
+
+# List Methods
+numList = [2, 1, 3]
+print(numList.append(4))
+print(numList.sort()) #sorts in ascending order
+# print(numList.sort(reverse = True)) #sorts in descending order
+print(numList)
+
+list = ["banana", "litchi", "apple"]
+# print(list.append(4))
+print(list.sort())  #sorts in ascending order
+# print(list.sort(reverse = True)) #sorts in descending order
+print(list)
+
+alphaList = ["a", "d", "e", "f", "c", "b"]
+print(alphaList.sort(reverse = True)) # ab descending mae hona yae chaye kae b, c, f aese start 
+# hou but yae aese nhi hoga kiyu keye string ke first charcter ke hisaab se sort hota hae tou ab
+# descending ulte alphabet count honge tou isme last f hae tou f se shuru hoga phir e phir d aese hoga
+# aur ascending mae string ka alpabet jou pehle aate hae wou waha se start honge aese means smjhna 
+# yae hae kae forward and backward sirf nhi hae jou character alphabet honge us hisaab se sort hote hae
+print(alphaList)
+
+alpList = ["g", "f", "t", "j", "e", "b"]
+alpList.reverse() # ab ye method poori list ko palt dega aur yae original list ke andar change
+# karta hae isme first chr wala scene nhi hae yae poori list plat dega last wale pehle ayenge 
+# and pehle wale end mae
+print(alpList)
+
+fruitList = ["apple", "banana", "grape"]
+fruitList.insert(2, "cherry") #insert element at index
+print(fruitList)
+
+pyList = [1, 2, 5, 4]
+pyList.remove(5) #removes first occurrence of element
+print(pyList)
+
+popList = ["David", "Huraira", "Saif", "Raeed"]
+popList.pop(2) #removes element at idx
+print(popList)
