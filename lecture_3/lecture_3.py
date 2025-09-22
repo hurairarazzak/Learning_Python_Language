@@ -67,3 +67,18 @@ print(pyList)
 popList = ["David", "Huraira", "Saif", "Raeed"]
 popList.pop(2) #removes element at idx
 print(popList)
+
+# Tuples in Python
+# A built-in data type that lets us create immutable sequences of values.
+
+# A tuple of integers
+my_tuple_1 = (1, 2, 3, 4, 5)
+print(f"Tuple 1: {my_tuple_1}")
+
+# A tuple of strings
+my_tuple_2 = ("apple", "banana", "cherry")
+print(f"Tuple 2: {my_tuple_2}")
+
+# A tuple with mixed data types
+my_tuple_3 = ("John", 30, True, 1.75)
+print(f"Tuple 3: {my_tuple_3}")
