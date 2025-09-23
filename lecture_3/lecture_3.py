@@ -74,9 +74,22 @@ print(popList)
 tup = (2, 1, 3, 1)
 print(tup[0])
 print(tup[1])
-# tup[0] = 5 # Not allowed
+# tup[0] = 5 # Not allowed bcz tupple is immutable
 
-tupl = (1,) # , is must 
+# tupl = (1,) # , is compulsory in tuple in the end if the value lenght is one if we didn't put , the
+# python will predict that the value is integer or float and string etc, and in the case of multiple
+# value like if we have the three length in tuple so it is not necesaary to put , in the end or 
+# incase you put it so that not an issue it's depend on you if you want to put or leave both is correct
+
 # tupl = () # we can also create empty tuple
-print(tupl)
+tupl = (1, 2, 3, 4)
+print(tupl[0:2]) # Slicing in tuple
 print(type(tupl))
+
+# Tuple Method
+numTuple = (2, 1, 3, 1, 2, 2)
+print(numTuple.index(3)) # Output: 2 bcz in the tuple the 3 is in index 2, also returns index of
+# first occurrence if the element is not found, it will raise an error. 
+
+print(numTuple.count(2)) # Output is 3 bcz the count will find that how many 2 is in your tuple
+# and in numTuple there are 3 tuples if the element is not found it will raise 0
