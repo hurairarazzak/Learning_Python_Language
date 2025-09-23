@@ -71,14 +71,12 @@ print(popList)
 # Tuples in Python
 # A built-in data type that lets us create immutable sequences of values.
 
-# A tuple of integers
-my_tuple_1 = (1, 2, 3, 4, 5)
-print(f"Tuple 1: {my_tuple_1}")
+tup = (2, 1, 3, 1)
+print(tup[0])
+print(tup[1])
+# tup[0] = 5 # Not allowed
 
-# A tuple of strings
-my_tuple_2 = ("apple", "banana", "cherry")
-print(f"Tuple 2: {my_tuple_2}")
-
-# A tuple with mixed data types
-my_tuple_3 = ("John", 30, True, 1.75)
-print(f"Tuple 3: {my_tuple_3}")
+tupl = (1,) # , is must 
+# tupl = () # we can also create empty tuple
+print(tupl)
+print(type(tupl))
