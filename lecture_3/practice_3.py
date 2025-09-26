@@ -51,3 +51,19 @@ print(grade.count("A"))
 sortVal = ["C", "D", "A", "A", "B", "B", "A"]
 print(sortVal.sort())
 print(sortVal)
+
+# ----------------- Side Practice -----------------
+
+fruits = ["apple", "banana", "mango"]
+print("Original List:", fruits)
+
+fruits.append("orange")
+print("After Append:", fruits)
+
+fruits.remove("banana")
+print("After Remove:", fruits)
+
+numbers = (2, 4, 6, 8, 10)
+print("Tuple:", numbers)
+print("First three numbers:", numbers[0:3])
+print("Count of 2 in tuple:", numbers.count(2))
